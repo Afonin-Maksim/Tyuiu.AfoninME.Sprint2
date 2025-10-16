@@ -2,7 +2,7 @@
 using Tyuiu.AfoninME.Sprint2.Task0.V24.Lib;
 
 
-namespace Tyuiu.PlatonovMV.Sprint2.Task0.V24.Test
+namespace Tyuiu.AfoninME.Sprint2.Task0.V24.Test
 {
     [TestClass]
     public sealed class DataServiceTest
