@@ -7,7 +7,7 @@ namespace Tyuiu.AfoninME.Sprint2.Task2.V29.Lib
     {
         public bool CheckDotInShadedArea(int x, int y)
         {
-            // Область взята с рисунка (вариант 29).
+            // Область взята с рисунка (варaиант 29).
             // Условия выделены по координатам, где закрашенные клетки есть на рисунке.
 
             bool res = false;
