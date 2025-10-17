@@ -20,20 +20,22 @@ namespace Tyuiu.AfoninME.Sprint2.Task6.V9.Lib
                 return "Ошибка: введена некорректная дата.";
             }
 
-            int nextDay = n;
-            int nextMonth = m;
+            int nextDay;
+            int nextMonth;
 
             if (n == daysInMonth)
             {
                 nextDay = 1;
-                nextMonth++;
+                nextMonth = m + 1;
             }
             else
             {
                 nextDay = n + 1;
+                nextMonth = m;
             }
 
-            return $"{nextDay}.{nextMonth}";
+            
+            return $"{nextDay:00}.{nextMonth:00}";
         }
     }
 }
