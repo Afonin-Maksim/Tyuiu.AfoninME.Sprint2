@@ -6,7 +6,10 @@ namespace Tyuiu.AfoninME.Sprint2.Task4.V10.Lib
     {
         public double Calculate(double x, double y)
         {
-           
+            // Условие из задания:
+            // если x * 2 < y / 3, то z = (1 + 3 / y)^x
+            // иначе z = y + 10x - (5 / x)
+            // ответ округлить до 3 знаков
 
             double z = (x * 2 < y / 3)
                 ? Math.Pow(1 + (3 / y), x)
